@@ -1,3 +1,4 @@
+import { FormEvent, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import { useAuth } from '../hooks/useAuth'
@@ -8,9 +9,13 @@ import googleIconImg from '../assets/images/google-icon.svg'
 
 import { Button } from '../components/Button'
 
+import { database } from '../services/firebase'
+import toast, { Toaster } from 'react-hot-toast'
+
 import '../styles/auth.scss'
 
 export function Home() {
+    const [roomCode, setRoomCode] = useState('')
     const history = useHistory()
     const { user, signInWithGoogle } = useAuth()
 
@@ -20,6 +25,24 @@ export function Home() {
         }
 
         history.push('/rooms/new')
+        toast.success('Sala criada com sucesso.')
+    }
+
+    async function handleJoinRoom(event: FormEvent) {
+        event.preventDefault()
+
+        if (roomCode.trim() === '') {
+            return
+        }
+
+        const roomRef = await database.ref(`rooms/${roomCode}`).get()
+
+        if (!roomRef.exists()) {
+            toast('A sala não existe')
+            return
+        }
+
+        history.push(`/rooms/${roomCode}`)
     }
 
     return (
@@ -44,8 +67,12 @@ export function Home() {
                     </button>
                     <div className="separator">ou entre em uma sala</div>
 
-                    <form>
+                    <form onSubmit={handleJoinRoom}>
                         <input
+                            onChange={(event) =>
+                                setRoomCode(event.target.value)
+                            }
+                            value={roomCode}
                             type="text"
                             placeholder="Digite o código da sala"
                         />
@@ -53,6 +80,7 @@ export function Home() {
                         <Button className="button" type="submit">
                             Entrar na sala
                         </Button>
+                        <Toaster />
                     </form>
                 </div>
             </main>
