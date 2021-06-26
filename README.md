@@ -17,12 +17,18 @@
 
 ------------
 
-<h2>📖 About</h2>
+<h2>💬 About</h2>
 
 Let me ask.
 
 ------------
-<h2>🔖 Layout</h2>
+
+<h2>👀 Live Preview</h2>
+
+<a href="https://letmeask-cd67f.web.app/">Let me ask</a>
+
+------------
+<h2>🎨 Layout</h2>
 <div align="justify">
 
 💻 Check the Web layout on <a href="https://www.figma.com/file/dayLLWnU13RTyCMbvpw058/Letmeask?node-id=0%3A1">Figma</a>.
@@ -30,7 +36,7 @@ Let me ask.
 
 ------------
 
-<h2>🚀 Technologies</h2>
+<h2>🔧 Tools and Technologies</h2>
 
 This project was developed with:
 
@@ -39,7 +45,16 @@ This project was developed with:
 - [Typescript](https://www.typescriptlang.org/ "Typescript")
 
 ------------
-<h2>♻️ How to Contribute</h2>
+<h2>⏫ Next Level</h2>
+
+- Responsiveness
+- Dark Theme
+- PWA
+- Other DB
+- To-do
+
+------------
+<h2>📦 How to Contribute</h2>
 
 ```
 - Fork this repository;
@@ -52,13 +67,13 @@ This project was developed with:
 ```
 ------------
 
-<h2>🎓 Developed by</h2>
-Happy was developed by <a href="https://github.com/diego3g">Diego Fernandes</a> from <a href="https://rocketseat.com.br/">Rocketseat</a> in the Next Level Week Together.
+<h2>💡 Developed by</h2>
+Letmeask was developed by <a href="https://github.com/diego3g">Diego Fernandes</a> from <a href="https://rocketseat.com.br/">Rocketseat</a> in the Next Level Week Together.
 
 ------------
 
 
-<h2>📃License</h2>
+<h2>📝License</h2>
 
 This project is under MIT License. Access <a href="https://github.com/Nandosbx/podcastr-next/blob/master/LICENSE.md">License</a> and learn more.
 
