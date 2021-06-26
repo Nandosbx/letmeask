@@ -1,8 +1,8 @@
 <h1 align="center">Next Level Week Together</h1>
+
 <p align="center">
-<img src="./.github/"/>
-
-
+<img src="./.github/logo.svg"/>
+</p>
 
 <div align="center">
 <img src="https://img.shields.io/badge/ROCKETSEAT-NLW%206.0-835afd?style=for-the-badge&logo=appveyor"/><img src="https://img.shields.io/badge/LICENSE-MIT-835afd?style=for-the-badge&logo=appveyor" />
@@ -11,9 +11,7 @@
 </div>
 
 <p align="center">
-<img src="./.github/"/>
-</p>
-
+<img src="./.github/letmeask.gif"/>
 
 ------------
 
@@ -43,6 +41,8 @@ This project was developed with:
 - [React](https://reactjs.org/ "React")
   
 - [Typescript](https://www.typescriptlang.org/ "Typescript")
+
+- [Firebase](https://www.firebase.google.com/ "Firebase")
 
 ------------
 <h2>⏫ Next Level</h2>
