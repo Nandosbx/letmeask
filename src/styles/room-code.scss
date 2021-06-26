@@ -1,4 +1,5 @@
 .room-code {
+    width: fit-content;
     height: 40px;
     border-radius: 8px;
     overflow: hidden;
@@ -10,7 +11,7 @@
     display: flex;
 
     div {
-        height: 40px;
+        height: 100%;
         background: #835afd;
         padding: 0 12px;
         display: flex;
