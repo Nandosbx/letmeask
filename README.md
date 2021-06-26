@@ -5,9 +5,9 @@
 
 
 <div align="center">
-<img src="https://img.shields.io/badge/ROCKETSEAT-NLW%206.0-5965e0?style=for-the-badge&logo=appveyor"/><img src="https://img.shields.io/badge/LICENSE-MIT-5965e0?style=for-the-badge&logo=appveyor" />
+<img src="https://img.shields.io/badge/ROCKETSEAT-NLW%206.0-835afd?style=for-the-badge&logo=appveyor"/><img src="https://img.shields.io/badge/LICENSE-MIT-835afd?style=for-the-badge&logo=appveyor" />
 
-![GitHub top language](https://img.shields.io/github/languages/count/Nandosbx/letmeask?color=5965e0&&style=for-the-badge&logo=appveyor)![GitHub top language](https://img.shields.io/github/languages/top/Nandosbx/letmeask?color=5965e0&&style=for-the-badge&logo=appveyor)![GitHub last commit](https://img.shields.io/github/last-commit/Nandosbx/letmeask?color=5965e0&&style=for-the-badge&logo=appveyor)![GitHub repo size](https://img.shields.io/github/repo-size/Nandosbx/letmeask?color=5965e0&&style=for-the-badge&logo=appveyor)![GitHub issues](https://img.shields.io/github/issues/Nandosbx/letmeask?color=5965e0&&style=for-the-badge&logo=appveyor)
+![GitHub top language](https://img.shields.io/github/languages/count/Nandosbx/letmeask?color=835afd&&style=for-the-badge&logo=appveyor)![GitHub top language](https://img.shields.io/github/languages/top/Nandosbx/letmeask?color=835afd&&style=for-the-badge&logo=appveyor)![GitHub last commit](https://img.shields.io/github/last-commit/Nandosbx/letmeask?color=835afd&&style=for-the-badge&logo=appveyor)![GitHub repo size](https://img.shields.io/github/repo-size/Nandosbx/letmeask?color=835afd&&style=for-the-badge&logo=appveyor)![GitHub issues](https://img.shields.io/github/issues/Nandosbx/letmeask?color=835afd&&style=for-the-badge&logo=appveyor)
 </div>
 
 <p align="center">
