@@ -17,7 +17,7 @@
 
 <h2>💬 About</h2>
 
-Let me ask.
+Let me ask is a realtime web app to create rooms for FAQ.
 
 ------------
 
