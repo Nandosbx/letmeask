@@ -1,0 +1,25 @@
+@media screen and(max-width: 1080px) {
+    body,
+    input,
+    button,
+    textarea {
+        font-size: 93.75%; //15px
+    }
+
+    main {
+        padding: 0 8px;
+    }
+}
+
+@media screen and(max-width: 720px) {
+    body,
+    input,
+    button,
+    textarea {
+        font-size: 87.5%; //14px
+    }
+
+    main {
+        padding: 0 8px;
+    }
+}
