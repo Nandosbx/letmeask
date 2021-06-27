@@ -62,7 +62,7 @@ export function Home() {
 
                 <strong>Crie salas de Q&amp;A ao vivo</strong>
 
-                <p>Tire as dúvidas da sua audiência em tempo-real</p>
+                <p>Tire as dúvidas da sua audiência em tempo real</p>
             </aside>
 
             <main>
