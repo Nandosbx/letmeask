@@ -83,7 +83,7 @@ Letmeask was developed by <a href="https://github.com/diego3g">Diego Fernandes</
 
 <h2>📝License</h2>
 
-This project is under MIT License. Access <a href="https://github.com/Nandosbx/podcastr-next/blob/master/LICENSE.md">License</a> and learn more.
+This project is under MIT License. Access <a href="https://github.com/Nandosbx/letmeask/blob/master/LICENSE.md">License</a> and learn more.
 
 ------------
 
