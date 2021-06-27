@@ -3,8 +3,10 @@ import { useHistory } from 'react-router-dom'
 
 import { useAuth } from '../hooks/useAuth'
 
-import illustrationImg from '../assets/images/illustration.svg'
-import logoImg from '../assets/images/logo.svg'
+//import illustrationImg from '../assets/images/illustration.svg'
+//import logoImg from '../assets/images/logo.svg'
+import qIllustra from '../assets/images/qillustra.png'
+import qlogoImg from '../assets/images/q.png'
 import googleIconImg from '../assets/images/google-icon.svg'
 
 import { Button } from '../components/Button'
@@ -54,7 +56,7 @@ export function Home() {
         <div id="page-auth">
             <aside>
                 <img
-                    src={illustrationImg}
+                    src={qIllustra}
                     alt="Ilustração simbolizando perguntas e respostas"
                 />
 
@@ -65,7 +67,8 @@ export function Home() {
 
             <main>
                 <div className="main-content">
-                    <img src={logoImg} alt="Letmeask" />
+                    <img src={qlogoImg} alt="Que" />
+
                     <button className="create-room" onClick={handleCreateRoom}>
                         <img src={googleIconImg} alt="Logo do Google" />
                         Crie sua sala com o Google

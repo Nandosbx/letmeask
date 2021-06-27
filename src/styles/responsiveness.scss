@@ -1,10 +1,6 @@
 @media screen and(max-width: 1080px) {
     body,
-    input,
-    button,
-    textarea,
-    strong,
-    p {
+    button {
         font-size: 93.75%; //15px
         margin-bottom: 8px;
     }
@@ -38,10 +34,7 @@
 
 @media screen and(max-width: 720px) {
     body,
-    input,
-    button,
-    textarea,
-    p {
+    button {
         font-size: 87.5%; //14px
         margin-bottom: 8px;
         align-items: center;

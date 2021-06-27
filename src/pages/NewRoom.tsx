@@ -3,8 +3,10 @@ import { Link, useHistory } from 'react-router-dom'
 import { useAuth } from '../hooks/useAuth'
 import { database } from '../services/firebase'
 
-import illustrationImg from '../assets/images/illustration.svg'
-import logoImg from '../assets/images/logo.svg'
+//import illustrationImg from '../assets/images/illustration.svg'
+//import logoImg from '../assets/images/logo.svg'
+import qlogoImg from '../assets/images/q.png'
+import qIllustra from '../assets/images/qillustra.png'
 
 import { Button } from '../components/Button'
 
@@ -36,7 +38,7 @@ export function NewRoom() {
         <div id="page-auth">
             <aside>
                 <img
-                    src={illustrationImg}
+                    src={qIllustra}
                     alt="Ilustração simbolizando perguntas e respostas"
                 />
 
@@ -47,7 +49,7 @@ export function NewRoom() {
 
             <main>
                 <div className="main-content">
-                    <img src={logoImg} alt="Letmeask" />
+                    <img src={qlogoImg} alt="Que" />
 
                     <h2>Criar uma nova sala</h2>
 

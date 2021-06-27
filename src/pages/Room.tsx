@@ -1,7 +1,9 @@
 import { FormEvent, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
-import logoImg from '../assets/images/logo.svg'
+//import logoImg from '../assets/images/logo.svg'
+import qlogoImg from '../assets/images/q.png'
+
 import { Button } from '../components/Button'
 import { RoomCode } from '../components/RoomCode'
 import { useAuth } from '../hooks/useAuth'
@@ -79,7 +81,7 @@ export function Room() {
         <div id="page-room">
             <header>
                 <div className="content">
-                    <img src={logoImg} alt="Letmeask" />
+                <img src={qlogoImg} alt="Que" />
                     <RoomCode code={roomId} />
                 </div>
             </header>
