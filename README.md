@@ -51,11 +51,15 @@ This project was developed with:
 ------------
 <h2>⏫ Next Level</h2>
 
-- Responsiveness
-- Dark Theme
-- PWA
-- Other DB
-- To-do
+✅ Responsiveness
+
+⬜ Dark Theme
+
+⬜ PWA
+
+⬜ Other DB
+
+⬜ To-do
 
 ------------
 <h2>📦 How to Contribute</h2>

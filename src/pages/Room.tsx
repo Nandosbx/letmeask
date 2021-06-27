@@ -81,7 +81,7 @@ export function Room() {
         <div id="page-room">
             <header>
                 <div className="content">
-                <img src={qlogoImg} alt="Que" />
+                    <img src={qlogoImg} alt="Que" />
                     <RoomCode code={roomId} />
                 </div>
             </header>
@@ -104,7 +104,11 @@ export function Room() {
                     <div className="form-footer">
                         {user ? (
                             <div className="user-info">
-                                <img src={user.avatar} alt={user.name} />
+                                <img
+                                    src={user.avatar}
+                                    alt={user.name}
+                                    className="border-gradient"
+                                />
                                 <span>{user.name}</span>
                             </div>
                         ) : (
