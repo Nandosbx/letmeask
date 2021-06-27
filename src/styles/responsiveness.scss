@@ -2,12 +2,37 @@
     body,
     input,
     button,
-    textarea {
+    textarea,
+    strong,
+    p {
         font-size: 93.75%; //15px
+        margin-bottom: 8px;
     }
 
     main {
         padding: 0 8px;
+    }
+
+    #page-auth {
+        display: block;
+        align-items: center;
+        justify-content: space-evenly;
+        object-fit: contain;
+
+        aside {
+            img {
+                max-width: 300px;
+            }
+
+            strong,
+            p {
+                font-size: 23px;
+            }
+        }
+
+        main {
+            margin-top: 8px;
+        }
     }
 }
 
@@ -15,11 +40,37 @@
     body,
     input,
     button,
-    textarea {
+    textarea,
+    p {
         font-size: 87.5%; //14px
+        margin-bottom: 8px;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     main {
         padding: 0 8px;
+    }
+
+    #page-auth {
+        display: block;
+        align-items: center;
+        justify-content: space-evenly;
+        object-fit: contain;
+
+        aside {
+            img {
+                max-width: 262.5px;
+            }
+
+            strong,
+            p {
+                font-size: 22px;
+            }
+        }
+
+        main {
+            margin-top: 8px;
+        }
     }
 }
