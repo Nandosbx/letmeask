@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react'
+import { FormEvent, useState, useContext } from 'react'
 import { useParams } from 'react-router-dom'
 
 //import logoImg from '../assets/images/logo.svg'
@@ -15,12 +15,19 @@ import { useRoom } from '../hooks/useRoom'
 
 //import likeImg from '../assets/images/like.svg'
 import '../styles/room.scss'
+import Switch from 'react-switch'
+import { ThemeContext } from 'styled-components'
+
+import light from '../styles/themes/light'
+import dark from '../styles/themes/dark'
 
 type RoomParams = {
     id: string
 }
 
-export function Room() {
+export const Room = () => {
+    const { colors, themeTitle } = useContext(ThemeContext)
+
     const { user } = useAuth()
     const params = useParams<RoomParams>()
 
@@ -77,12 +84,30 @@ export function Room() {
         }
     }
 
+    const [theme, setTheme] = useState(light)
+
+    function toggleTheme() {
+        setTheme(theme.themeTitle === 'light' ? dark : light)
+    }
+
     return (
         <div id="page-room">
             <header>
                 <div className="content">
                     <img src={qlogoImg} alt="Que" />
-                    <RoomCode code={roomId} />
+                    <div>
+                        <Switch
+                            onChange={toggleTheme}
+                            checked={themeTitle === 'light'}
+                            checkedIcon={true}
+                            uncheckedIcon={false}
+                            height={20}
+                            width={50}
+                            offColor={colors.primary}
+                            onColor={colors.secondary}
+                        />
+                        <RoomCode code={roomId} />
+                    </div>
                 </div>
             </header>
 
@@ -183,3 +208,5 @@ export function Room() {
         </div>
     )
 }
+
+export default Room
